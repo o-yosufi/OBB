@@ -1,7 +1,19 @@
 #assignment operators
 x = 16
-x-=10 
-
+x-=10
+print(x)
+ 
 x +=20 
-x *=23
-x **=1
+print(x)
+
+x *=32
+print(x)
+
+x **=0
+print(x)
+
+x /= 3
+print(x)
+
+x **= 4
+print(x)
