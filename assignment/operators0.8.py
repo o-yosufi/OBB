@@ -8,4 +8,7 @@ print(y / x)
 print(x ** y)
 print(y // x)
 
-#assignment operators
+#Assignment operators
+x = 7 
+x += 5
+
