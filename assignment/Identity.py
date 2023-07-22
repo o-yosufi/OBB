@@ -12,6 +12,7 @@ x = 200
 y = 100
 print(x is not y)
 a = [5, 6, 7, 1, 9]
-c = [5, 6, 7, 1, 9]
-a = c
+b = [5, 6, 7, 1, 9]
+c = a
 print(a is c)
+print(a is b)
