@@ -1,5 +1,5 @@
 # list
-afg = ["kabul","parwan","logar","gazni","kapeca"]
+afg = ["kabul","parwan","logar","gazni","kapisa"]
 
 print(afg)
 print(afg[2:4])
@@ -15,3 +15,4 @@ afg[2]= "takhar"
 time = [365, 24, 60]
 for y in time:
     print(y / 2)
+    print(y * 100)
