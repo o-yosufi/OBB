@@ -1,0 +1,15 @@
+#append
+AP=[44, 55, 66, 77]
+AP.append("ahmad")
+print(AP)
+
+Newlist = [44, 55, 66, 77]
+Newlist.append("obaid")
+print(Newlist)
+
+
+#insert Items
+Newlist=[3,4,5]
+Newlist.insert(2,'ahamd')
+print(Newlist)
+
