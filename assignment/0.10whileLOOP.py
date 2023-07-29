@@ -1,4 +1,6 @@
-i = 1
-while i < 6:
-    print(i**2)
-    i +=1
+s = 1
+while s == 25:
+    print(s)
+    if s == 25:
+        continue
+    s **= 25
