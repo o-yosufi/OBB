@@ -1,0 +1,31 @@
+import requests
+import json
+
+def get_weather(city):
+    # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+    api_key = 'YOUR_API_KEY'
+    base_url = 'http://api.openweathermap.org/data/2.5/weather'
+
+    # Construct the API request URL with the city and API key
+    url = f'{base_url}?q={city}&appid={api_key}'
+
+    # Send a GET request to the API and store the response
+    response = requests.get(url)
+
+    # Parse the JSON response
+    weather_data = json.loads(response.text)
+
+    # Extract relevant information from the response
+    temperature = weather_data['main']['temp']
+    description = weather_data['weather'][0]['description']
+
+    # Convert temperature from Kelvin to Celsius
+    temperature_celsius = temperature - 273.15
+
+    # Print the weather information
+    print(f'Temperature: {temperature_celsius:.2f}°C')
+    print(f'Description: {description}')
+
+# Example usage
+city = 'London'
+get_weather(city)
