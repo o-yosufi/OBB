@@ -1,0 +1,31 @@
+1. frist go to render.com
+
+2.create acount with signUp
+ 
+3. get start free individul 
+
+4. click on new then select WEB server after that link your github  and and select your repository then cennocet.
+
+5. 
+
+6.
+
+7.
+
+8. if it didnot work create requirement file by Using code pip freeze > requirment.txt 
+
+9.pip install gunicron
+
+10.Using code py freeze > requirment.txt 
+
+11. when your server wrok live
+
+12. Allowed Host to = ['8']
+
+13.git add git commit git puch
+
+14.then go to urls.py and write urlspatterns += staticsflies_urls()
+
+15. then git add, git commit git push
+
+16. application name go to  settings.py find WSGI_APPLICATION = 'alif.wsgi.application' and past it on render settings start commands
