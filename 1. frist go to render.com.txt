@@ -1,3 +1,31 @@
+
+#create virtual environment
+py -m venv venv
+venv\Scripts\activate.bat
+code .
+py -m pip insatll Django
+django-admin startproject alif  
+py manage.py runserver
+py manage.py startapp members
+#inside member folder create templates folder
+
+
+
+
+
+#
+py manage.py makemigrations members
+py manage.py migrate
+
+
+
+
+
+
+
+
+
+
 1. frist go to render.com
 
 2.create acount with signUp
